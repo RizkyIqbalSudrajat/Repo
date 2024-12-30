@@ -1,0 +1,91 @@
+name: lji
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter: 
+    sdk: flutter
+    
+  curved_navigation_bar: ^1.0.3
+  intl: ^0.19.0
+  image_picker: ^1.0.7
+  get: ^4.6.6
+  mysql1: ^0.20.0
+  shared_preferences: ^2.2.2
+  http: ^1.2.0
+  firebase_core: ^2.25.4
+  firebase_auth: ^4.17.5
+  cloud_firestore: ^4.15.5
+  firebase_storage: ^11.6.6
+  persistent_bottom_nav_bar: ^5.0.2
+  flutter_neumorphic_plus: ^3.3.0
+  firebase_messaging: ^14.7.20
+  connectivity_plus: ^5.0.2
+  loading_animation_widget: ^1.2.1
+  flutter_spinkit: ^5.2.0
+  flutter_local_notifications: ^17.0.0
+  awesome_notifications: ^0.9.3+1
+  badges: ^3.1.2
+  
+  
+  
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter    
+  flutter_lints: ^3.0.1
+  google_fonts: ^6.1.0
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/1024.png"
+  min_sdk_android: 21 
+  
+
+  
+
+  
+
+  
+
+flutter:
+  assets:
+    - assets/Logoes.png
+    - assets/menu1.png
+    - assets/menu2.png
+    - assets/notif.png
+    - assets/logout.png
+    - assets/keranjang.png
+    - assets/buttonkeranjang.png
+    - assets/search.png
+    - assets/makan.png
+    - assets/minum.png
+    - assets/produk.png
+    - assets/stok.png
+    - assets/teh taro.jpg
+    - assets/uang.png
+    - assets/minum_black.png
+    - assets/makan_white.png
+    - assets/stok_white.png
+    - assets/picture.png
+    - assets/jurnal.png
+    - assets/minus.png
+    - assets/plus.png
+    - assets/esteh.png
+    - assets/histori.png
+    - assets/Warning.png
+    - assets/1024.png
+    # - assets/512.png
+    - assets/lost.png
+    
+
+  uses-material-design: true
+  
+    
